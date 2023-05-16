@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    padding: 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    display: block;
+}
+nav{
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h1 {
+    color: black;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+#destaques img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+#destaques a{
+    margin-left: 20px;
+}
+#destaques h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#destaques h2{
+    margin-left: 20px;
+}
+#destaques p{
+    margin-left: 20px;
+}
+#generos img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+#generos h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#generos h2{
+    font-size: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#generos p{
+    margin-left: 20px;
+}
+#generos a{
+    padding: 100px;
+    font-size: larger;
+    margin-left: 50px;
+}
+#playlists h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato img{
+    width: 40px;
+}
+
+  #contato h4 and img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contato .telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  
+  #contato .github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  #contato .spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  #contato .instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  #contato .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  main{
+    background-color: lightskyblue;
+    color: black;
+  }
+  a{
+    color: blue;
+  }
+  .link-item {
+    margin-left: 10px;
+}
+#generos ul li a {
+    padding: 5px;
+}
